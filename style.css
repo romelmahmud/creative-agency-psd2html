@@ -6,6 +6,12 @@ body {
 .container {
   max-width: 84.375rem;
 }
+
+/* 
+=============================================
+                    header
+=============================================
+ */
 .sub-title {
   font-family: "Cormorant Infant", serif;
   font-size: 2rem;
@@ -16,7 +22,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding-bottom: 13.7rem;
+  padding-bottom: 13.95rem;
 }
 .hero-img {
   position: absolute;
@@ -176,4 +182,18 @@ header::before {
 }
 .btn-container .btn-purple:hover {
   background-color: #532770;
+}
+
+/* 
+====================================
+about
+====================================
+ */
+
+section#about {
+  color: black;
+  background-image: url(./images/World\ Map.png);
+  background-size: cover;
+  background-position: center;
+  padding: 4.75rem 0;
 }
