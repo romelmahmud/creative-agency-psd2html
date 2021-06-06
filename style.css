@@ -12,11 +12,7 @@ body {
                     header
 =============================================
  */
-.sub-title {
-  font-family: "Cormorant Infant", serif;
-  font-size: 2rem;
-  color: white;
-}
+
 header {
   background-image: url(./images/hero-bg.jpg);
   background-size: cover;
@@ -83,14 +79,23 @@ header::before {
 .hero-img img {
   height: 39.5rem;
 }
-.title {
+.sub-title,
+.about-sub-title {
+  font-family: "Cormorant Infant", serif;
+  font-size: 2.5rem;
+  color: white;
+  line-height: 1;
+}
+.title,
+.about-title {
   font-size: 4rem;
   font-weight: 600;
   color: white;
   line-height: 1;
   margin-bottom: 1.5rem;
 }
-.body-text {
+.body-text,
+.about-body-text {
   color: white;
   font-size: 1.125rem;
   font-weight: 600;
@@ -196,4 +201,83 @@ section#about {
   background-size: cover;
   background-position: center;
   padding: 4.75rem 0;
+}
+.watch-cotainer {
+  padding-left: 4rem;
+}
+@media (max-width: 992px) {
+  .watch-cotainer {
+    padding: 4rem 0 0;
+  }
+}
+
+.about-sub-title {
+  color: #484848;
+  font-size: 2rem;
+}
+.about-title {
+  font-size: 3.125rem;
+  color: #484848;
+}
+
+.about-body-text {
+  color: #484848;
+  margin-bottom: 3.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+.tab-button-container p {
+  margin-top: 1rem;
+  display: inline-block;
+
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #484848;
+  padding: 0.5rem 1.25rem;
+  border-radius: 100vw;
+  transition: all 250ms ease-in;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tab-button-container p:hover {
+  background-color: #f42267;
+  color: white;
+}
+.read-btn {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+  padding: 0.85rem 2rem;
+  border-radius: 10px;
+  transition: all 250ms ease-in;
+  background-color: #f42267;
+  position: relative;
+  z-index: 999;
+}
+.read-btn:hover {
+  background-color: #df0048;
+}
+
+.read-button-container {
+  position: relative;
+}
+.read-btn-buttom {
+  width: 153.7px;
+  height: 2rem;
+
+  border-radius: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  background-color: #ff5990;
+}
+
+@media (max-width: 768px) {
+  .read-button-container {
+    scale: 0.9;
+  }
 }
