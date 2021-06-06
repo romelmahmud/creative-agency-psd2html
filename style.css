@@ -400,3 +400,43 @@ section#about {
     content: none;
   }
 }
+
+/* 
+======================================
+              Grow section
+=======================================
+ */
+
+#grow {
+  background-image: url(./images/creative-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  text-align: center;
+  padding: 5rem 0;
+  position: relative;
+  background-color: rgba(103, 102, 194, 0.7);
+  background-blend-mode: overlay;
+}
+#grow .container {
+  padding: 0 15rem;
+}
+#grow .body-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+#grow .read-button-container {
+  display: inline-block;
+}
+#grow .about-title {
+  color: white;
+}
+
+@media (max-width: 992px) {
+  #grow .container {
+    padding: 0 5rem;
+  }
+}
