@@ -230,6 +230,7 @@ section#about {
 .about-title {
   font-size: 3.125rem;
   color: #484848;
+  font-weight: 600;
 }
 
 .about-body-text {
@@ -438,5 +439,78 @@ section#about {
 @media (max-width: 992px) {
   #grow .container {
     padding: 0 5rem;
+  }
+}
+
+/* 
+=======================================
+          Features section
+=======================================
+ */
+
+#features {
+  padding: 6.25rem 0;
+}
+#features .about-sub-title {
+  margin-bottom: 0.3rem;
+  color: #1d1d1d;
+}
+#features .about-body-text {
+  margin-bottom: 3.75rem;
+  color: #1d1d1d;
+}
+#features .article-title {
+  font-size: 1.5625rem;
+  font-weight: 600;
+  color: #1d1d1d;
+}
+#features .article-text {
+  font-size: 0.875rem;
+  color: #484848;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+.features-content-container {
+  padding: 0 3rem 0 4.5rem;
+}
+
+.article-icon {
+  max-height: 4.4375rem;
+  margin-bottom: 0.75rem;
+}
+.video-img-container {
+  margin-top: 4.375rem;
+}
+.img-thumbnail-container {
+  position: relative;
+}
+
+.video-img {
+  border-radius: 10px;
+
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.play-btn {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  cursor: pointer;
+}
+article .read-button-container {
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  article {
+    text-align: center;
+  }
+  .features-content-container {
+    padding: 0 2rem;
   }
 }
