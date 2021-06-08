@@ -257,6 +257,14 @@ section#about {
 .tab-button-container p:hover {
   background-color: #f42267;
   color: white;
+  -webkit-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
+}
+.tab-button-container p.active-tab-btn {
+  background-color: #f42267;
+  color: white;
+  -webkit-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
 }
 .read-btn {
   text-transform: uppercase;
@@ -513,4 +521,39 @@ article .read-button-container {
   .features-content-container {
     padding: 0 2rem;
   }
+}
+
+/*
+===================================================
+                products section 
+=================================================== 
+ */
+
+#products {
+  padding: 76px 0;
+  background-color: #f1f1f1;
+}
+#products .about-title {
+  color: #333;
+}
+#products .about-body-text {
+  margin-bottom: 0;
+}
+#products .tab-button-container {
+  margin-top: 1rem;
+}
+#products .tab-button-container p {
+  color: #333;
+}
+#products .tab-button-container p.active-tab-btn {
+  color: white;
+}
+#products .tab-button-container p:hover {
+  color: white;
+}
+#products .tab-button-container .col {
+  padding: 0;
+}
+.products-content-container {
+  text-align: center;
 }
