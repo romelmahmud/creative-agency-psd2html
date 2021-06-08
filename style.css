@@ -257,14 +257,14 @@ section#about {
 .tab-button-container p:hover {
   background-color: #f42267;
   color: white;
-  -webkit-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
 }
 .tab-button-container p.active-tab-btn {
   background-color: #f42267;
   color: white;
-  -webkit-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
 }
 .read-btn {
   text-transform: uppercase;
