@@ -585,3 +585,26 @@ article .read-button-container,
 #products .read-button-container {
   margin-top: 5rem;
 }
+
+/*
+==================================================
+                Clients logo Section 
+================================================== 
+ */
+
+#clients-logo {
+  background-color: #4b2d7f;
+  padding: 7rem 0;
+}
+.clients-logo-container {
+  padding: 0 7rem;
+}
+#clients-logo img {
+  display: inline-block;
+  margin-top: 1rem 0;
+}
+#clients-logo .row .col-10 {
+  align-self: center;
+  text-align: center;
+  margin: 1.5625rem 0;
+}
