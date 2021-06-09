@@ -608,3 +608,131 @@ article .read-button-container,
   text-align: center;
   margin: 1.5625rem 0;
 }
+
+/* 
+===========================================
+             Testimonial Sections
+===========================================
+ */
+#testimonial {
+  background-image: url(./images/client-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+#testimonial .about-title {
+  color: white;
+}
+.testimonial-content-container {
+  margin-top: 4rem;
+}
+.testimonial-content-container p.sub-title {
+  margin-bottom: 0.2rem;
+}
+.testimonial-content {
+  margin-top: 6rem;
+}
+.testimonial-text span {
+  font-size: 8.5rem;
+  color: #f42267;
+  line-height: 0;
+  position: absolute;
+  top: 1.2rem;
+  left: -3.5rem;
+}
+.testimonial-body {
+  position: relative;
+  margin: 0 0 4rem 2rem;
+  font-style: italic;
+  font-size: 1.375rem;
+  font-weight: 200;
+}
+.testimonial-container {
+  padding: 0 8.5rem;
+}
+.ratings,
+.clients-name {
+  margin-left: 2rem;
+}
+
+.ratings {
+  margin-bottom: 1.25rem;
+}
+.clients-name {
+  font-size: 1.375rem;
+}
+/* .client-testimonial-image {
+  display: inline-block;
+  width: 100%;
+} */
+
+@media (max-width: 1100px) {
+  .testimonial-container {
+    padding: 0 5.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonial-container {
+    padding: 0 2rem;
+  }
+
+  .sub-title,
+  .about-sub-title {
+    font-size: 2rem;
+  }
+  .about-title {
+    font-size: 3rem;
+  }
+  .testimonial-content {
+    margin-top: 4rem;
+  }
+  .testimonial-body {
+    margin: 0 0 3rem 2rem;
+
+    font-size: 18px;
+  }
+  .testimonial-text span {
+    font-size: 6.5rem;
+
+    left: -3rem;
+  }
+  .ratings {
+    margin-bottom: 1rem;
+  }
+  .clients-name {
+    font-size: 1.25rem;
+  }
+  #testimonial .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #testimonial .col-md-6 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .client-testimonial-image {
+    display: none;
+  }
+  #testimonial {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-title,
+  .about-sub-title {
+    font-size: 1.5rem;
+  }
+  .about-title {
+    font-size: 2.5rem;
+  }
+  #clients-logo {
+    padding: 5rem 0;
+  }
+}
