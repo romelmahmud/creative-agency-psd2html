@@ -510,7 +510,8 @@ section#about {
   right: 50%;
   cursor: pointer;
 }
-article .read-button-container {
+article .read-button-container,
+#products .read-button-container {
   display: inline-block;
 }
 
@@ -530,7 +531,7 @@ article .read-button-container {
  */
 
 #products {
-  padding: 76px 0;
+  padding: 4.75rem 0 6.875rem;
   background-color: #f1f1f1;
 }
 #products .about-title {
@@ -579,4 +580,8 @@ article .read-button-container {
 }
 .products-image-container {
   margin-top: 3.5rem;
+}
+
+#products .read-button-container {
+  margin-top: 5rem;
 }
