@@ -849,3 +849,43 @@ article .read-button-container,
     font-size: 0.75rem;
   }
 }
+.footer-content {
+  padding: 6.75rem 0;
+  background-image: url(./images/World\ Map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-link-title {
+  color: #40286a;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.footer-link-container a {
+  color: #1d1d1d;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 250ms ease-in;
+  margin: 0.15rem 0.5rem;
+}
+.footer-link-container a:hover {
+  color: #484848;
+}
+
+footer img {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.footer-img-container .col-5 {
+  padding-right: 0;
+}
