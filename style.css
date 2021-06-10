@@ -153,9 +153,12 @@ header::before {
     margin-bottom: 2.5rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-img {
     display: none;
+  }
+  .hero-container {
+    text-align: center;
   }
   .title {
     margin-bottom: 2rem;
@@ -172,6 +175,9 @@ header::before {
   a.navbar-brand {
     width: 80%;
     margin-right: 0;
+  }
+  .btn-container .btn {
+    margin-top: 1rem;
   }
 
   .navbar-toggler-icon {
@@ -855,6 +861,7 @@ article .read-button-container,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 
 .footer-link-title {
@@ -888,4 +895,26 @@ footer img {
 
 .footer-img-container .col-5 {
   padding-right: 0;
+}
+
+.copyright-section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding-top: 1rem;
+}
+.copyright-section p {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+}
+@media (max-width: 576px) {
+  .copyright-section {
+    flex-direction: column;
+    padding: 1.5rem 0;
+  }
+  .copyright-section p {
+    margin-bottom: 0.25rem;
+  }
 }
