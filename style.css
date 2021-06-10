@@ -283,6 +283,7 @@ section#about {
 }
 
 .read-button-container {
+  display: inline-block;
   position: relative;
 }
 .read-btn-buttom {
